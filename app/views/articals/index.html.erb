@@ -1,0 +1,18 @@
+<div class="container">
+      <p id="notice"><%= notice %></p>
+
+      <h1>Listing Articals</h1>
+
+    <div class="row">
+    <div class="col-md-8">
+
+         <%= render @articals %>
+        
+    </div>
+    </div>
+
+
+  <br>
+
+  <%= link_to 'New Artical', new_artical_path %>
+</div>

@@ -1,0 +1,15 @@
+<div class="card">   
+   <div class="card-block">   
+        <h3 class="card-title">
+            <%= artical.title %>   
+        </h3>
+        <p class="card-text">
+                <%= @markdown.render(artical.body).html_safe %>   
+                
+            </p>
+    </div>
+    <div class="card-footer">
+        <%= link_to "EDIT", edit_artical_path(artical), class:"btn-danger btn" %>
+        <%= link_to 'DELETE', artical,class:"btn btn-success", method: :delete, data: { confirm: 'Are you sure?' } %>
+    </div>
+</div>
