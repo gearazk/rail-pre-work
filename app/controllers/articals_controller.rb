@@ -6,11 +6,19 @@ class ArticalsController < ApplicationController
   def index
     @articals = Artical.all
     @markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
+    if params[:search]
+      @articals = Artical.search(params[:search]).order("created_at DESC")
+    else
+      @articals = Artical.all.order('created_at DESC')
+    end
+    
   end
 
   # GET /articals/1
   # GET /articals/1.json
   def show
+    @markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
+    
   end
 
   # GET /articals/new

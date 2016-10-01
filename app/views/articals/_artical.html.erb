@@ -1,12 +1,12 @@
 <div class="card">   
    <div class="card-block">   
-        <h3 class="card-title">
+        <h3 class="card-title" style="text-transform:capitalize">
             <%= artical.title %>   
         </h3>
+        <hr>
         <p class="card-text">
-                <%= @markdown.render(artical.body).html_safe %>   
-                
-            </p>
+            <%= @markdown.render(artical.body).html_safe %>   
+        </p>
     </div>
     <div class="card-footer">
         <%= link_to "EDIT", edit_artical_path(artical), class:"btn-danger btn" %>

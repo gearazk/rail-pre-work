@@ -1,18 +1,56 @@
 <div class="container">
-      <p id="notice"><%= notice %></p>
-
-      <h1>Listing Articals</h1>
-
+    
+    <div class="row" style=" padding:40px 0;margin-bottom: 30px; background:url(http://static2.businessinsider.com/image/57a8afa7ce38f252008b552e-1200/final-fantasy-xv-takes-place-in-eos-a-beautiful-world-that-mixes-elements-of-sci-fi-and-fantasy.jpg) 50% 20%;color:white;font-family:cursive">
+        <div class="col-md-4">
+            <div class="header" >
+              <p id="notice"><%= notice %></p>
+              <h2>----Khiem's Blog----</h2>
+            </div>
+        </div>  
+        <div class="col-md-8">
+            <nav class="navbar navbar-dark bg-inverse">
+                <ul class="nav navbar-nav col-md-9">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home Page <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/10">About Me </a>
+                    </li>
+                </ul>
+                <div class='col-md-3'>
+                <%= form_tag("/", method: "get",class:'form-inline pull-xs-right') do %>
+                  <%= text_field_tag :search, params[:search], placeholder: "Search Posts", class:'form-control' %>
+                <% end %>
+                </div>
+            </nav>
+        </div>
+    </div>
     <div class="row">
-    <div class="col-md-8">
+        <div class="col-md-8">
+            <% if @articals.present? %>
+            <%= render @articals %>
+            <% else %>
+                <p>There's no [<%= params[:search] %>] here !.</p>
+            <% end %>
+        </div>
+	    <div class="col-md-4">
+            <div class="card">   
+               <div class="card-block">   
+                    <h3 class="card-title" style="text-transform:capitalize">
+                        About this Blog
+                    </h3>
+                    <p class="card-text">
+                        <li>Make with Rails</li>
+                        <li>You can Edit or Delete a post with buttons in each post</li>
+                        <li>Button Add post is right under </li>
+                        <li>Other page look a bit ugly :D</li>
+                    </p>
+                </div>
+            </div>
+        <%= link_to 'New Artical', new_artical_path, class:'btn btn-info' %>
 
-         <%= render @articals %>
-        
+   		</div>
     </div>
-    </div>
-
-
-  <br>
-
-  <%= link_to 'New Artical', new_artical_path %>
+ 	<br>
+	
 </div>
