@@ -9,9 +9,10 @@ Khiem's Blog is a Ruby on Rails blog application.
 
 Submitted by: Thien Khiem
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
-URL: **Insert your Heroku URL here**
+URL: https://rocky-plains-77574.herokuapp.com/
+
 
 ## User Stories
 
