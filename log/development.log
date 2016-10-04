@@ -14425,3 +14425,129 @@ Started GET "/assets/articals.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dd
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-10-01 16:05:14 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-04 09:31:33 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (32.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticalsController#index as HTML
+  [1m[35mArtical Load (47.4ms)[0m  SELECT "articals".* FROM "articals"  ORDER BY created_at DESC
+  Rendered articals/_artical.html.erb (1.2ms)
+  Rendered articals/index.html.erb within layouts/application (162.5ms)
+Completed 200 OK in 957ms (Views: 797.1ms | ActiveRecord: 135.1ms)
+
+
+Started GET "/assets/application.self-e8432835bca90bc88d0b5e953e5574175a268c2cc61e86c62b1a8cb23fd244dd.css?body=1" for 127.0.0.1 at 2016-10-04 09:31:35 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:35 +0700
+
+
+Started GET "/assets/bootstrap/util.self-680b7884df4d75073a26e3c68d46707651532798f03bedf8660d58eea64b3119.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:35 +0700
+
+
+Started GET "/assets/bootstrap/alert.self-bdf15471cc3f8bf48b6c84b425cc3c85c1487f271e5097023db4f9ea586fa78f.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:35 +0700
+
+
+Started GET "/assets/bootstrap/button.self-a8b562c15ddf30817b78b204c90e7545cd15964e6ad0bae900febbcab16db78f.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:35 +0700
+
+
+Started GET "/assets/bootstrap/carousel.self-33ff6cd8bdbc7d2d806750031be3596638419421e68774d1175d28c453f4c81c.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:35 +0700
+
+
+Started GET "/assets/bootstrap/collapse.self-38133b2ef441a0e010179f36ce4dafd1aa314722b7121efa418cbb7008f1140d.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:35 +0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-aa7af53b394d19d463bcc4acb2fabc72bc9f769fed11ae51545c0eb4a21462e1.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:35 +0700
+
+
+Started GET "/assets/bootstrap/modal.self-cac2981567df8e58f861c9e377ca2f94dd19b3c17583b31ec68aa8daf5d2c3ba.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:35 +0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-730f5e04939f68dd8d1ffd3d3fd03d68a10d9268b49928ca8f37256c2208dfd8.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:35 +0700
+
+
+Started GET "/assets/bootstrap/tab.self-4c7399aca472908f19496347147ad67251c8a975b700814c158ab97e9c90a0a8.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:35 +0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-bb250ae18e2aecbed7e4c2aab97ed7e5c43b17e154cdb6573fcc59b72202d699.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:35 +0700
+
+
+Started GET "/assets/bootstrap/popover.self-ecb9aa4e5b3cb4f98f846797a160786f1db253e7b68240d68daf0f3628d9a61b.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:36 +0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:36 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:36 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:36 +0700
+
+
+Started GET "/assets/articals.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:36 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-10-04 09:31:36 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-05 00:03:32 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticalsController#index as HTML
+  [1m[35mArtical Load (0.9ms)[0m  SELECT "articals".* FROM "articals"  ORDER BY created_at DESC
+  Rendered articals/_artical.html.erb (1.3ms)
+  Rendered articals/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 261ms (Views: 249.1ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/application.self-e8432835bca90bc88d0b5e953e5574175a268c2cc61e86c62b1a8cb23fd244dd.css?body=1" for 127.0.0.1 at 2016-10-05 00:03:32 +0700
+
+
+Started GET "/assets/bootstrap/carousel.self-33ff6cd8bdbc7d2d806750031be3596638419421e68774d1175d28c453f4c81c.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:32 +0700
+
+
+Started GET "/assets/bootstrap/alert.self-bdf15471cc3f8bf48b6c84b425cc3c85c1487f271e5097023db4f9ea586fa78f.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:32 +0700
+
+
+Started GET "/assets/bootstrap/util.self-680b7884df4d75073a26e3c68d46707651532798f03bedf8660d58eea64b3119.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:32 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:32 +0700
+
+
+Started GET "/assets/bootstrap/button.self-a8b562c15ddf30817b78b204c90e7545cd15964e6ad0bae900febbcab16db78f.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:32 +0700
+
+
+Started GET "/assets/bootstrap/collapse.self-38133b2ef441a0e010179f36ce4dafd1aa314722b7121efa418cbb7008f1140d.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:32 +0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-aa7af53b394d19d463bcc4acb2fabc72bc9f769fed11ae51545c0eb4a21462e1.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:32 +0700
+
+
+Started GET "/assets/bootstrap/modal.self-cac2981567df8e58f861c9e377ca2f94dd19b3c17583b31ec68aa8daf5d2c3ba.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:32 +0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-730f5e04939f68dd8d1ffd3d3fd03d68a10d9268b49928ca8f37256c2208dfd8.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:32 +0700
+
+
+Started GET "/assets/bootstrap/tab.self-4c7399aca472908f19496347147ad67251c8a975b700814c158ab97e9c90a0a8.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:32 +0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-bb250ae18e2aecbed7e4c2aab97ed7e5c43b17e154cdb6573fcc59b72202d699.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:33 +0700
+
+
+Started GET "/assets/bootstrap/popover.self-ecb9aa4e5b3cb4f98f846797a160786f1db253e7b68240d68daf0f3628d9a61b.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:33 +0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:33 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:33 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:33 +0700
+
+
+Started GET "/assets/articals.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:33 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-10-05 00:03:33 +0700
